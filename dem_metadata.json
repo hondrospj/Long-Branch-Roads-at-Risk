@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Long Branch DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Long Branch boundary, adaptively resampled to 5.5 ft pixels to keep the browser-delivered raster within operational size limits, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.686944129166659,
+  "pixelSizeFeet": 5.534593599606008,
+  "adaptiveResolution": true,
+  "width": 2523,
+  "height": 6000,
+  "nodata": -999999,
+  "minMeters": -1.62,
+  "maxMeters": 23.523,
+  "meanMeters": 5.76,
+  "stdDevMeters": 3.613,
+  "minFeet": -5.314960629900001,
+  "maxFeet": 77.175196850085,
+  "webMercatorBounds": [
+    -8239062.465974,
+    4903848.49594,
+    -8234806.305936113,
+    4913970.160715
+  ],
+  "leafletBounds": [
+    [
+      40.2603529,
+      -74.0127574
+    ],
+    [
+      40.3297032,
+      -73.9745304
+    ]
+  ],
+  "files": {
+    "demCog": "long_branch_dem_5ft_cog.tif",
+    "hillshadeCog": "long_branch_hillshade_cog.tif",
+    "hillshadePng": "long_branch_hillshade.png",
+    "boundaryGeojson": "long_branch_boundary.geojson"
+  }
+}
